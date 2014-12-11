@@ -1,0 +1,27 @@
+/* CSS */
+
+.person {
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+}
+
+.person_div {
+    height: 300px;
+    width: 200px;
+}
+
+.name_plate {
+    background-color: red;
+    text-align: center;
+    position: relative;
+    width: 110%;
+    left: 5px;
+    padding: 15px 0;
+}
+
+ul li {
+    list-style: none; 
+    display: inline-block;
+    margin: 20px;
+}
