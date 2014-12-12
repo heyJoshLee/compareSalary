@@ -1,5 +1,22 @@
 /* CSS */
 
+body {
+    background-color: black;
+    color: snow;
+    font-family: sans-serif;
+}
+
+#page_Wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#person_container {
+    text-align: center;
+    margin-top: -1000px;
+    margin: 0 auto; 
+}
+
 .person {
     width: 220px;
     height: 220px;
@@ -9,19 +26,138 @@
 .person_div {
     height: 300px;
     width: 200px;
+    display: none;
+    margin: 0 auto;
+
 }
 
 .name_plate {
-    background-color: red;
     text-align: center;
     position: relative;
     width: 110%;
     left: 5px;
     padding: 15px 0;
+    margin: 0 auto;
+   
 }
 
 ul li {
     list-style: none; 
     display: inline-block;
     margin: 20px;
+
+}
+
+ul {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    left: -35px; 
+}
+
+
+#input_div {
+    margin: 100px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.enter {
+    font-size: 34px;
+    text-transform: capitalize;
+}
+
+#input_div h2{
+    text-align: center;
+    line-height: 2em;
+}
+
+
+input {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 50%;
+    font-size: 34px;
+    background-color: black;
+    color:  snow;
+}
+
+
+.years {
+    font-size: 1.5em;
+}
+
+.name_plate, 
+[id^=salary],
+.years {
+    margin-top: 15px;
+}
+
+[id^=salary]::before {
+    content: "Annual Salary: ";
+}
+
+.person_div br {
+    margin-top: 100px;
+}
+
+.person_div {
+    margin-top: 35px;
+}
+
+#start {
+    background-color: rgba(50, 50, 50, .8);
+    width: 140px;
+    height: 45px;
+    font-size: 28px;
+    color: snow;
+    margin-top: 14px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#title {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#about {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.popup {
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: -240px;
+    padding: 10px;
+    display: none;
+    background-color: rgba(255, 255, 255, 1);
+    color: black
+}
+
+
+  
+
+#close {
+    height: 30px;
+    width: 30px;
+    content: 'x';
+    border: 4px solid snow;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: -145px;
+    left: 130px;
+    color: snow
+}
+
+#info:hover {
+    cursor: pointer;
 }
